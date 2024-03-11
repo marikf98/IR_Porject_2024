@@ -37,7 +37,9 @@ Multithreading Optimization: Implements multithreading in querying to paralleliz
 Though not explicitly shown in the initial code outline, this hypothetical module would be responsible for managing interactions with data sources, such as downloading and parsing Wikipedia dumps and interfacing with Google Cloud Storage for index storage and retrieval.
 
 Functionality: Includes functions for parsing Wikipedia data, uploading and downloading index files, and converting data into formats suitable for indexing and querying.
+
 4. Evaluation and Analysis (evaluation.py)
+
 Another suggested module for evaluating the search engine's performance, including calculating precision, recall, and query processing times, and generating performance graphs.
 
 Functionality: Provides tools for running benchmark queries against the search engine, comparing results against a ground truth set, and visualizing performance over time or across different configurations.
